@@ -5,7 +5,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import "./Header.css";
-import SlideOneImage from "/header-slide-one.png"
+import SlideOneImage from "/header-slider-one.png"
+import SlideTwoImage from "/header-slider-two.png"
+import SlideThreeImage from "/header-slider-three.png"
 
 export default function Header() {
   return (
@@ -21,14 +23,30 @@ export default function Header() {
             <button className="more-btn">Batafsil</button>
           </div>
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <div className="left">  
+            <img src={SlideTwoImage} alt="" />
+          </div>
+          <div className="right">
+            <h1 className="title">Yutuqlarimiz bilan faxrlanamiz!</h1>
+            <p className="description">
+              55-maktab jamoasi joriy yil davomida ko'plab yutuqlarga erishdi. O'quvchilarimiz turli fan olimpiadalarida g'olib bo'lib, sport musobaqalarida yuqori natijalarni qo'lga kiritishdi. Barcha o'qituvchilarimiz va ota-onalarimizga minnatdorchilik bildiramiz!
+            </p>
+            <button className="more-btn">Batafsil</button>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="left">  
+            <img src={SlideThreeImage} alt="" />
+          </div>
+          <div className="right">
+            <h1 className="title">Bilim – eng katta boylik!</h1>
+            <p className="description">
+              55-maktab jamoasi har doim bilim olishga intiladi. O'quvchilarimiz yangi fanlarni o'rganish, yangi ko'nikmalarni rivojlantirish va o'z salohiyatlarini to'liq ochish uchun barcha imkoniyatlardan foydalanadilar. Bilim olish – bu eng katta boylikdir!
+            </p>
+            <button className="more-btn">Batafsil</button>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </div>
   );
