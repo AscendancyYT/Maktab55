@@ -1,0 +1,77 @@
+.pride {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.pride .title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-family: "Fredoka", sans-serif;
+  color: #fff;
+}
+
+.pride .description {
+  margin-bottom: 30px;
+  color: #555;
+  font-size: larger;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+}
+
+.prideSwiper {
+  padding: 20px;
+}
+
+.pride-card {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  height: 400px;
+  width: 300px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pride-photo {
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.pride-name {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.pride-reason {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.contact-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #ff6b6b;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-family: "Fredoka", sans-serif;
+}
+
+.contact-btn:hover {
+  background: #fff;
+  color: #ff6b6b;
+  border: 2px solid #ff6b6b;
+}
