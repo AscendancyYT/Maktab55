@@ -60,7 +60,7 @@ export default function About() {
   };
 
   return (
-    <div className="about">
+    <div className="about" id="about">
       <h1 className="title">Biz Haqimizda!</h1>
       <p className="description">
         55-maktab jamoasi har doim bilim olishga intiladi. O'quvchilarimiz yangi
