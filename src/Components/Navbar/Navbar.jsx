@@ -8,7 +8,7 @@ export default function Navbar() {
       <ul className="navigation">
         <li><HashLink to="#about" smooth className='nav-link'>Biz Haqimizda</HashLink></li>
         <li><HashLink to="#pride" smooth className='nav-link'>Maktabimiz G'ururi</HashLink></li>
-        <li><a className="nav-link" href="#">Kontaktlar</a></li>
+        <li><HashLink className="nav-link" to="#contact" smooth>Kontaktlar</HashLink></li>
         <li><a className="nav-link" href="#">Jurnal</a></li>
       </ul>
       <button className="login-btn">Kirish</button>
